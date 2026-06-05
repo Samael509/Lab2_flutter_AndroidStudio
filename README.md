@@ -1,17 +1,35 @@
-# flutter_lab2
+# First Flutter App — Flutter Lab 2
 
-A new Flutter project.
+Flutter-приложение с градиентным фоном, написанное с нуля.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- ФИО: Уютов Павел Александрович 
+- Группа: ИСП-231
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.44.0
+- Dart 3.12.0
+- Платформа: Web (Edge)
+- IDE: VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![App](img/step9_Uyutov.png)
+
+## Как запустить
+
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d edge`
+
+## Что изучили
+
+- Структура Flutter-проекта
+- Виджеты: MaterialApp, Scaffold, Center, Container, Text
+- Дерево виджетов и как оно строится
+- Hot Reload и Hot Restart — разница и применение
+- Стилизация текста через TextStyle
+- Градиентный фон через BoxDecoration и LinearGradient
